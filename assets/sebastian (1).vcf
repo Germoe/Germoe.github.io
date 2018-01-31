@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Sebastian Engels
+N:Engels;Sebastian;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:me@sebastian-engels.com
+TEL;TYPE=CELL:+1 716 844-6991
+ADR;TYPE=HOME:;North York;163 Chipwood Crescent;;ON;M2J 3X6;
+BDAY:1989-10-29
+item1.URL:sebastian-engels.com
+item1.X-ABLabel:PROFILE
+item2.URL:facebook.com/basiengels
+item2.X-ABLabel:Facebook
+item3.URL:linkedin.com/in/sebastianengels/
+item3.X-ABLabel:LinkedIn
+item4.URL:https\://www.instagram.com/thehighandthelow
+item4.X-ABLabel:Instagram
+END:VCARD

@@ -1,0 +1,97 @@
+#intro {
+	min-height: initial;
+}
+
+#about {
+	padding-top: 0;
+}
+
+.slide-container {
+    margin: 0;
+    height: 100vh;
+    display: table;
+}
+
+.slide-container > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.slide {
+	text-align: center;
+	padding: 0 !important;
+}
+
+.slide img {
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
+}
+
+.right-half {
+	width: 50vw;
+}
+
+.social-count-container {
+	position: fixed;
+	top: 35vh;
+	right: 0;
+	opacity: 0;
+}
+
+.social-count {
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 0 2px !important;
+}
+
+.social-count img {
+    padding: 10px
+}
+
+.show {
+	opacity: 1;
+	transition-duration: 0.5s;
+}
+
+.social-count h2 {
+	font-size: 1.5em;
+	white-space: nowrap;
+}
+
+.social-count h3 {
+	font-size: 1.3rem;
+	white-space: nowrap;
+}
+
+@media only screen and (max-width: 1023px) {
+	#slide-one {
+		background-color: #fff;    
+		background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1) 60%); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1) 60%); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1) 60%); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1) 60%); /* Standard syntax */
+	    top: initial;
+	    bottom: 0;
+	    padding: 30px 40px 10px 40px;
+	}
+
+	.slide-container {
+		width: 100%;
+	}
+
+	.right-half {
+		width: initial;
+	}
+
+	.col-six {
+		width: 100%;
+	}
+
+	.social-count h2 {
+		font-size: 2rem;
+		white-space: nowrap;
+	}
+}
+
